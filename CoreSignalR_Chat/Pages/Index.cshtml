@@ -1,0 +1,23 @@
+﻿@page
+<div class="jumbotron text-center">
+    <h1>ASP.NET Core SignalR</h1>
+    <p>Chat usando Hubs</p>
+</div>
+<div class="container">
+    <div class="form-inline">
+        <input type="text" id="groupName" placeholder="Grupo" class="form-control mb-2 mr-sm-2 mb-sm-0" />
+        <input type="text" id="name" placeholder="Nombre" class="form-control mb-2 mr-sm-2 mb-sm-0" />
+        <input type="text" id="message" placeholder="Mensaje" class="form-control mb-2 mr-sm-2 mb-sm-0" />
+        <input type="button" id="send" value="Enviar" class="btn btn-success" />
+    </div>
+    <div class="form-inline">
+        <input type="button" id="connect" value="Conectar" class="btn btn-success" />
+        <input type="button" id="leave" value="Abandonar" class="btn btn-danger" />
+    </div>
+    <div class="form-inline">
+        <ul id="messages" class="list-group border"></ul>
+    </div>
+</div>
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>

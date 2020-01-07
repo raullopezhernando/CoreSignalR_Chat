@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSignalR_Chat", "CoreSignalR_Chat\CoreSignalR_Chat.csproj", "{04BBE6DB-2AFB-4386-B1E3-4A1DE8FDBFDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04BBE6DB-2AFB-4386-B1E3-4A1DE8FDBFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BBE6DB-2AFB-4386-B1E3-4A1DE8FDBFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BBE6DB-2AFB-4386-B1E3-4A1DE8FDBFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BBE6DB-2AFB-4386-B1E3-4A1DE8FDBFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E9ECF77-EE68-4CD0-B15F-E736282D5203}
+	EndGlobalSection
+EndGlobal
